@@ -1,14 +1,31 @@
 # Laporan Proyek Machine Learning - Bily Hakim Erlangga
 
+![water.jpg](image%2Fwater.jpg)
 ## Domain Proyek
 
-Air minum adalah kebutuhan mutlak untuk manusia bertahan hidup
+Air minum adalah kebutuhan mutlak untuk manusia bertahan hidup, terlebih tubuh manusia terdiri dari air sebesar 70%. Kekurangan air akan sangat mempengaruhi 
+kondisi tubuh yang tidak disarankan oleh siapapun praktisi kesehatan. Berikut adalah beberapa dampak yang terjadi jika tubuh kekurangan air ([Dampak Kurang Minum Air Putih](https://yankes.kemkes.go.id/view_artikel/2638/dampak-kurang-minum-air-putih)):
 
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Jelaskan mengapa dan bagaimana masalah tersebut harus diselesaikan
-- Menyertakan hasil riset terkait atau referensi. Referensi yang diberikan harus berasal dari sumber yang kredibel dan author yang jelas.
-  
-  Format Referensi: [Judul Referensi](https://scholar.google.com/) 
+1. Sistem Imun yang melemah
+2. Sangat sulit untuk berfokus
+3. memicu mood yang menjadi buruk (Bad Mood)
+4. Tekanan darah menurun
+5. Dan masih banyak lagi
+
+Diikuti juga dengan perkembangan teknologi informasi, terutama dalam bidang machine learning. Penulis menyadari bahwa dalam bidang kesehatan 
+bisa dilakukan kolaborasi antar studi guna memudahkan manusia. menurut paper javaid dkk ([Significance of machine learning in healthcare ...](https://www.sciencedirect.com/science/article/pii/S2666603022000069))
+bahwa implementasi machine learning dalam layanan kesehatan, memberikan dampak yang positif. 
+
+Selain dari hal tersebut, mengutip dari Perserikatan Bangsa Bangsa (PBB) pada tahun 2019 mencatat bahwa 1/4 populasi dunia atau 2.2 milyar masih kekurangan air yang layak untuk diminum ([1 in 3 people globally do not have ...](https://www.sciencedirect.com/science/article/pii/S2666603022000069)).
+Di Indonesia sendiri, menurut Bappenas, ketersediaan air di beberapa bagian pulau jawa dan bali sudah tergolong langka. Hal ini lah yang menjadikan penulis memiliki ide
+untuk membuat sistem seperti ini. penulis menyadari, bahwa solusi yang ditawarkan penulis bukan tentang solusi langsung dari kelangkaan air layak minum,
+tapi ide besarnya, bagaimana bisa membuat suatu alat yang otomatis menemukan mata air yang memiliki kualitas air yang dapat diminum.
+
+Sistem ini dibuat dengan memanfaatkan teknologi machine learning, bagaimana ia bisa menghasilkan prediksi kelayakan suatu air dengan indikator nilai 1 untuk layak diminum dan 0 untuk tidak layak.
+
+Dari sisi bisnis, hal ini juga bisa disematkan dalam sebuah dispenser yang mengubah air keran menjadi air minum layak, agar menambahkan sensor yang terhubung kedalam perangkat iot
+dan menyampaikan notifikasi apabila air yang dihasilkan dispenser tersebut mengalami kegagalan sistem, sehingga memberikan peringatan awal. Dan masih banyak manfaat lainnya
+yang luput dari perhatian penulis.
 
 ## Business Understanding
 
