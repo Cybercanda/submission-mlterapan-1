@@ -44,8 +44,7 @@ Berikut adalah tujuan dari proyek ini:
 - Eksplorasi Berbagai Macam Algoritma Machine Learning: Penulis akan melakukan eksplorasi yang mendalam dengan menggunakan berbagai macam algoritma Machine Learning, termasuk hingga 5 algoritma yang berbeda, untuk menciptakan model prediksi kelayakan air minum yang optimal. Dengan melakukan pendekatan ini, penulis akan memastikan bahwa penulis memilih algoritma terbaik yang sesuai dengan data, sehingga meningkatkan akurasi dan keandalan model. Pendekatan ini juga memungkinkan untuk memaksimalkan potensi Machine Learning dalam proyek ini dan menghasilkan hasil yang optimal bagi masyarakat yang membutuhkan akses air bersih yang aman.
 
 ## Data Understanding
-Dataset ini berisi pengukuran dan penilaian kualitas air yang terkait dengan potabilitas, yaitu kesesuaian air untuk konsumsi manusia. Tujuan utama dataset ini adalah untuk memberikan wawasan tentang parameter kualitas air dan membantu dalam menentukan apakah air tersebut dapat diminum atau tidak. Setiap baris dalam dataset mewakili sampel air dengan atribut tertentu, dan kolom "Potability" 
-menunjukkan apakah air tersebut layak untuk dikonsumsi.
+Dataset ini berisi pengukuran dan penilaian kualitas air yang terkait dengan potabilitas, yaitu kesesuaian air untuk konsumsi manusia. Tujuan utama dataset ini adalah untuk memberikan wawasan tentang parameter kualitas air dan membantu dalam menentukan apakah air tersebut dapat diminum atau tidak. Setiap baris dalam dataset mewakili sampel air dengan atribut tertentu, dan kolom "Potability" menunjukkan apakah air tersebut layak untuk dikonsumsi. Dataset ini berasal dari kaggle [Water Quality and Potability](https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability) berisi 3276 sampel, dengan beberapa kondisi missing value pada kolom _ph_ sebesar **491** data, lalu _sulfate_ **781** data, dan _Trihalomethanes_ **162** data. Berisi 10 kolom penting, dengan 9 kolom fitur dan 1 kolom target (_Potability_).
 
 ### Variabel-variabel pada Dataset Water Quality and Potability:
 - **pH (Tingkat pH air)**: Contoh konkret pengukuran pH dalam dataset ini adalah 6.8, 7.2, dll.
@@ -87,7 +86,8 @@ Langkah ini membantu memastikan bahwa tidak ada informasi yang hilang dalam data
 dapat lebih percaya diri dalam melatih model dan menguji kemampuannya untuk melakukan prediksi dengan akurat.
 
 ## Modeling
-Penulis menggunakan 5 algoritma machine learning untung membandingkan peforma pada proses prediksi ini, berikut adalah kelima algoritma tersebut:
+Penulis memilih 5 algoritma tersebut karena tugas ini termasuk kedalam tugas klasifikasi 2 kelas. 5 Algoritma dibawah merupakan algoritma yang cukup populer dan umum digunakan untuk menyelesaikan permasalahan klasifikasi dan banyak referensi yang beredar sehingga memudahkan penulis untuk membuat modelnya. Berikut adalah kelima algoritma yang dimaksud:
+
 1. _Regresi Logistik_: Regresi logistik adalah algoritme klasifikasi yang dapat digunakan untuk memprediksi hasil kategorikal. Algoritme ini bekerja dengan menyesuaikan garis atau kurva pada data, lalu menggunakan garis atau kurva tersebut untuk memprediksi hasil untuk data baru.
 2. _K-Nearest Neighbors_ (KNN): KNN adalah algoritme non-parametrik yang dapat digunakan untuk memprediksi hasil kategorikal atau kontinu. Algoritme ini bekerja dengan menemukan k titik data yang paling mirip dengan titik data baru, dan kemudian menggunakan kelas mayoritas dari k titik data tersebut untuk memprediksi hasil untuk titik data baru.
 3. _Random Forest_: _Random forest_ adalah algoritma pembelajaran ensemble yang menggabungkan beberapa pohon keputusan untuk membuat prediksi. Algoritme ini bekerja dengan memilih fitur secara acak dari kumpulan data dan kemudian membangun pohon keputusan untuk setiap fitur. Prediksi dari pohon keputusan kemudian digabungkan untuk membuat prediksi akhir.
