@@ -1,6 +1,8 @@
 # Laporan Proyek Machine Learning - Bily Hakim Erlangga
 
-![water.jpg](image%2Fwater.jpg)
+![water](https://github.com/Cybercanda/submission-mlterapan-1/assets/113665438/0569644c-6ec4-4896-befc-7b730852ef31)
+
+
 ## Domain Proyek
 
 Air bersih merupakan kebutuhan pokok manusia dan memiliki peran penting dalam menjaga kesehatan dan kesejahteraan masyarakat. 
@@ -58,7 +60,10 @@ menunjukkan apakah air tersebut layak untuk dikonsumsi.
 - **Potability (Variabel target)**: Variabel ini menunjukkan potensi air dengan nilai 1 (dapat diminum) dan 0 (tidak dapat diminum).
 
 ### Univariate Analysis
-![univariate.png](image%2Funivariate.png)
+
+![univariate](https://github.com/Cybercanda/submission-mlterapan-1/assets/113665438/6543475a-3d60-4ba9-bc82-0275a004bd38)
+
+
 Berdasarkan grafik tersebut, dapat ditarik beberapa kesimpulan sebagai berikut:
 - Tingkat kelayakan minum air umumnya semakin tinggi seiring dengan meningkatnya nilai pH.
 - Air dengan nilai pH di bawah 7 dianggap tidak layak minum, sedangkan air dengan nilai pH di atas 7 dianggap layak minum.
@@ -160,21 +165,18 @@ Berikut adalah beberapa kelebihan dan kekurangan dalam algoritma yang digunakan.
 - _random_state_: Ini adalah biji acak yang digunakan untuk membuat model dapat direproduksi. Penulis mengaturnya ke 55, yang akan memastikan bahwa hasilnya konsisten setiap kali menjalankan model.
 
 ## Evaluation
-Pada penulisan ini, penulis menggunakan metrik evaluasi akurasi. Dengan cara kerja sebagai berikut:
+Pada penulisan ini, penulis menggunakan metrik evaluasi akurasi. Cara kerja akurasi sebagai berikut:
 
-When $a \ne 0$, the accuracy is given by
-
-\[
+$$
 \text{Akurasi} = \frac{TP + TN}{TP + TN + FP + FN}
-\]
+$$
 
-where:
-\begin{align*}
-- TP & : \text{True Positive} \\
-- TN & : \text{True Negative} \\
-- FP & : \text{False Positive} \\
-- FN & : \text{False Negative}
-\end{align*}
+Deskripsi Komponen:
+
+    TP: True Positive
+    TN: True Negative
+    FP: False Positive
+    FN: False Negative
 
 
 Hasilnya bisa dilihat pada tabel berikut:
@@ -190,7 +192,7 @@ Hasilnya bisa dilihat pada tabel berikut:
 
 Dan visualisasinya:
 
-![model.png](image%2Fmodel.png)
+![visualisasi](https://github.com/Cybercanda/submission-mlterapan-1/assets/113665438/fb61e415-ad0c-4233-a9a7-af1cb15e3f89)
 
 - Random Forest (RF) memiliki akurasi tertinggi pada data pengujian, yaitu 0.6816. Namun, akurasi yang sempurna (1.0) pada data pelatihan menunjukkan kemungkinan overfitting.
 - K-Nearest Neighbors (KNN) juga memiliki akurasi yang cukup baik pada data pengujian (0.6479) dan tidak menunjukkan tanda-tanda overfitting.
