@@ -3,8 +3,9 @@
 ![water.jpg](image%2Fwater.jpg)
 ## Domain Proyek
 
-Air minum adalah kebutuhan mutlak untuk manusia bertahan hidup, terlebih tubuh manusia terdiri dari air sebesar 70%. Kekurangan air akan sangat mempengaruhi 
-kondisi tubuh yang tidak disarankan oleh siapapun praktisi kesehatan. Berikut adalah beberapa dampak yang terjadi jika tubuh kekurangan air ([Dampak Kurang Minum Air Putih](https://yankes.kemkes.go.id/view_artikel/2638/dampak-kurang-minum-air-putih)):
+Akses terhadap air minum bersih merupakan kebutuhan mutlak bagi kelangsungan hidup manusia, mengingat tubuh manusia terdiri dari sekitar 70% air. Asupan air yang tidak mencukupi 
+dapat secara signifikan berdampak pada kesehatan seseorang, situasi yang sangat tidak disarankan oleh para profesional kesehatan. Di bawah ini adalah beberapa konsekuensi yang dapat 
+timbul ketika tubuh kekurangan pasokan air yang cukup  ([Dampak Kurang Minum Air Putih](https://yankes.kemkes.go.id/view_artikel/2638/dampak-kurang-minum-air-putih)):
 
 1. Sistem Imun yang melemah
 2. Sangat sulit untuk berfokus
@@ -12,89 +13,158 @@ kondisi tubuh yang tidak disarankan oleh siapapun praktisi kesehatan. Berikut ad
 4. Tekanan darah menurun
 5. Dan masih banyak lagi
 
-Diikuti juga dengan perkembangan teknologi informasi, terutama dalam bidang machine learning. Penulis menyadari bahwa dalam bidang kesehatan 
-bisa dilakukan kolaborasi antar studi guna memudahkan manusia. menurut paper javaid dkk ([Significance of machine learning in healthcare ...](https://www.sciencedirect.com/science/article/pii/S2666603022000069))
-bahwa implementasi machine learning dalam layanan kesehatan, memberikan dampak yang positif. 
+Selain itu, dengan kemajuan teknologi informasi, khususnya di bidang pembelajaran mesin, diakui bahwa integrasi pembelajaran mesin ke dalam perawatan kesehatan dapat memberikan hasil yang 
+bermanfaat, seperti yang ditekankan dalam penelitian Javaid et al  ([Significance of machine learning in healthcare ...](https://www.sciencedirect.com/science/article/pii/S2666603022000069))
 
-Selain dari hal tersebut, mengutip dari Perserikatan Bangsa Bangsa (PBB) pada tahun 2019 mencatat bahwa 1/4 populasi dunia atau 2.2 milyar masih kekurangan air yang layak untuk diminum ([1 in 3 people globally do not have ...](https://www.sciencedirect.com/science/article/pii/S2666603022000069)).
-Di Indonesia sendiri, menurut Bappenas, ketersediaan air di beberapa bagian pulau jawa dan bali sudah tergolong langka. Hal ini lah yang menjadikan penulis memiliki ide
-untuk membuat sistem seperti ini. penulis menyadari, bahwa solusi yang ditawarkan penulis bukan tentang solusi langsung dari kelangkaan air layak minum,
-tapi ide besarnya, bagaimana bisa membuat suatu alat yang otomatis menemukan mata air yang memiliki kualitas air yang dapat diminum.
+Selain itu, merujuk pada data Perserikatan Bangsa-Bangsa (PBB) pada tahun 2019, dilaporkan bahwa seperempat dari populasi global atau setara dengan 2,2 miliar orang masih kekurangan akses terhadap air minum yang aman  ([1 in 3 people globally do not have ...](https://www.sciencedirect.com/science/article/pii/S2666603022000069)).
+Di Indonesia, menurut Bappenas, beberapa daerah di Jawa dan Bali sudah menghadapi tantangan kelangkaan air. Hal ini yang kemudian memunculkan ide inovatif dari penulis.
 
-Sistem ini dibuat dengan memanfaatkan teknologi machine learning, bagaimana ia bisa menghasilkan prediksi kelayakan suatu air dengan indikator nilai 1 untuk layak diminum dan 0 untuk tidak layak.
+Penulis mengakui bahwa solusi yang diajukan tidak secara langsung mengatasi masalah kelangkaan air minum. Sebaliknya, konsep menyeluruhnya berkisar pada pengembangan alat yang mampu secara otomatis mengidentifikasi sumber air dengan kualitas air yang dapat diminum. Sistem ini memanfaatkan teknologi machine learning untuk memprediksi kelayakan air, 
+memberikan nilai 1 untuk air yang dapat diminum dan 0 untuk air yang tidak layak minum.
 
-Dari sisi bisnis, hal ini juga bisa disematkan dalam sebuah dispenser yang mengubah air keran menjadi air minum layak, agar menambahkan sensor yang terhubung kedalam perangkat iot
-dan menyampaikan notifikasi apabila air yang dihasilkan dispenser tersebut mengalami kegagalan sistem, sehingga memberikan peringatan awal. Dan masih banyak manfaat lainnya
-yang luput dari perhatian penulis.
+Dari perspektif bisnis, teknologi ini dapat diintegrasikan ke dalam dispenser air, mengubah air keran menjadi air minum yang aman. Hal ini akan melibatkan penggabungan sensor yang terhubung ke perangkat IoT, yang memungkinkan pemantauan secara real-time dan menghasilkan peringatan jika terjadi kegagalan sistem. Sistem seperti ini tidak hanya menawarkan kenyamanan tetapi juga 
+memberikan peringatan dini terhadap potensi masalah. Manfaat potensial dari inovasi ini melampaui apa yang awalnya dibayangkan oleh penulis.
 
 ## Business Understanding
 
-Pada bagian ini, kamu perlu menjelaskan proses klarifikasi masalah.
-
-Bagian laporan ini mencakup:
+Tujuan dari bagian ini adalah untuk memperjelas masalah bisnis dan mendefinisikan tujuan proyek.
 
 ### Problem Statements
-
-Menjelaskan pernyataan masalah latar belakang:
-- Pernyataan Masalah 1
-- Pernyataan Masalah 2
-- Pernyataan Masalah n
+Berikut ini adalah pernyataan masalah yang akan dibahas dalam proyek ini:
+- Akses terhadap air minum bersih merupakan tantangan utama di berbagai belahan dunia, termasuk Indonesia.
+- Machine Learning memiliki potensi untuk membantu mengatasi tantangan ini dengan mengotomatiskan proses identifikasi mata air dengan kualitas air yang dapat diminum.
 
 ### Goals
 
-Menjelaskan tujuan dari pernyataan masalah:
-- Jawaban pernyataan masalah 1
-- Jawaban pernyataan masalah 2
-- Jawaban pernyataan masalah n
+Berikut adalah tujuan dari proyek ini:
+- Mengembangkan model machine learning yang dapat secara akurat memprediksi kualitas air dari mata air.
+- Menerapkan model dengan cara yang dapat diakses dan terjangkau oleh masyarakat di negara-negara berkembang.
+ 
 
-Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pernyataan masalah dan juga goals yang diinginkan.
-
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Menambahkan bagian “Solution Statement” yang menguraikan cara untuk meraih goals. Bagian ini dibuat dengan ketentuan sebagai berikut: 
-
-    ### Solution statements
-    - Mengajukan 2 atau lebih solution statement. Misalnya, menggunakan dua atau lebih algoritma untuk mencapai solusi yang diinginkan atau melakukan improvement pada baseline model dengan hyperparameter tuning.
-    - Solusi yang diberikan harus dapat terukur dengan metrik evaluasi.
+### Solution statements
+- Gunakan model machine learning untuk mempelajari hubungan antara kualitas air dan fitur-fitur seperti ph, hardness, dan sebagainya.
+- Kembangkan alat yang memungkinkan pengguna untuk mengumpulkan data tentang kualitas air dan mengirimkannya ke model untuk prediksi.
 
 ## Data Understanding
-Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
+Dataset ini berisi pengukuran dan penilaian kualitas air yang terkait dengan potabilitas, yaitu kesesuaian air untuk konsumsi manusia. Tujuan utama dataset ini adalah untuk memberikan wawasan tentang parameter kualitas air dan membantu dalam menentukan apakah air tersebut dapat diminum atau tidak. Setiap baris dalam dataset mewakili sampel air dengan atribut tertentu, dan kolom "Potability" menunjukkan apakah air tersebut layak untuk dikonsumsi.
+Dataset yang digunakan untuk proyek ini adalah dataset Water Quality and Potability dari: [Kaggle Dataset](https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability).
+Berisi 3276 sampel data.
 
-Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
-
-### Variabel-variabel pada Restaurant UCI dataset adalah sebagai berikut:
-- accepts : merupakan jenis pembayaran yang diterima pada restoran tertentu.
-- cuisine : merupakan jenis masakan yang disajikan pada restoran.
-- dst
+### Variabel-variabel pada Dataset Water Quality and Potability:
+- pH: Tingkat pH air.
+- Hardness: Kesadahan air, ukuran kandungan mineral.
+- Solids: Total padatan terlarut di dalam air.
+- Chloramines: Konsentrasi kloramin di dalam air.
+- Sulfate: Konsentrasi sulfat di dalam air.
+- Conductivity: Daya hantar listrik air.
+- Organic_carbon: Kandungan karbon organik dalam air.
+- Trihalomethanes: Konsentrasi trihalometana di dalam air.
+- Turbidity: Tingkat kekeruhan, ukuran kejernihan air.
+- Potability: Variabel target; menunjukkan potensi air dengan nilai 1 (dapat diminum) dan 0 (tidak dapat diminum).
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
-- Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data atau exploratory data analysis.
+- Penulis melakukan visualisasi data untuk memahami data, berikut adalah hasilnya.
+### Univariate Analysis
+![univariate.png](image%2Funivariate.png)
+### Multivariate Analysis
+![multivariate.png](image%2Fmultivariate.png)
 
 ## Data Preparation
-Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dilakukan. Teknik yang digunakan pada notebook dan laporan harus berurutan.
+Train Test Split: Dataset dibagi menjadi satu set pelatihan dan satu set pengujian. Set pelatihan digunakan untuk melatih model, dan set uji digunakan untuk mengevaluasi kinerja model. Pembagiannya adalah 80%-10%, 
+dengan 80% data digunakan untuk pelatihan dan 10% digunakan untuk pengujian.
 
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menjelaskan proses data preparation yang dilakukan
-- Menjelaskan alasan mengapa diperlukan tahapan data preparation tersebut.
+**Rubrik/Kriteria Tambahan (Opsional)**:
+- Proses pembagian ini memanfaatkan library dari sklearn, dengan mengimport modul train_test_split
+- Train Test Split adalah langkah penting dalam pembelajaran mesin karena memungkinkan model untuk dievaluasi pada data yang belum pernah dilihat sebelumnya. Hal ini membantu untuk memastikan bahwa model tidak overfitting dengan data pelatihan dan 
+dapat menggeneralisasi ke data baru.
 
 ## Modeling
-Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyelesaikan permasalahan. Anda perlu menjelaskan tahapan dan parameter yang digunakan pada proses pemodelan.
+Penulis menggunakan 5 algoritma machine learning untung membandingkan peforma pada proses prediksi ini, berikut adalah kelima algoritma tersebut:
+1. Regresi Logistik: Regresi logistik adalah algoritme klasifikasi yang dapat digunakan untuk memprediksi hasil kategorikal. Algoritme ini bekerja dengan menyesuaikan garis atau kurva pada data, lalu menggunakan garis atau kurva tersebut untuk memprediksi hasil untuk data baru.
+2. K-Nearest Neighbors (KNN): KNN adalah algoritme non-parametrik yang dapat digunakan untuk memprediksi hasil kategorikal atau kontinu. Algoritme ini bekerja dengan menemukan k titik data yang paling mirip dengan titik data baru, dan kemudian menggunakan kelas mayoritas dari k titik data tersebut untuk memprediksi hasil untuk titik data baru.
+3. Random Forest: Random forest adalah algoritma pembelajaran ensemble yang menggabungkan beberapa pohon keputusan untuk membuat prediksi. Algoritme ini bekerja dengan memilih fitur secara acak dari kumpulan data dan kemudian membangun pohon keputusan untuk setiap fitur. Prediksi dari pohon keputusan kemudian digabungkan untuk membuat prediksi akhir.
+4. Naive Bayes: Naive Bayes adalah algoritma probabilistik yang dapat digunakan untuk memprediksi hasil kategorikal. Algoritme ini bekerja dengan mengasumsikan bahwa fitur-fiturnya tidak bergantung satu sama lain.
+5. daBoost: AdaBoost adalah algoritma pembelajaran ensembel yang menggabungkan beberapa decision tree untuk membuat prediksi. Algoritme ini bekerja dengan melatih decision tree secara berulang-ulang pada versi data berbobot. Bobot disesuaikan untuk memberikan nilai lebih pada titik data yang salah diklasifikasikan oleh pohon keputusan sebelumnya.
 
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menjelaskan kelebihan dan kekurangan dari setiap algoritma yang digunakan.
-- Jika menggunakan satu algoritma pada solution statement, lakukan proses improvement terhadap model dengan hyperparameter tuning. **Jelaskan proses improvement yang dilakukan**.
-- Jika menggunakan dua atau lebih algoritma pada solution statement, maka pilih model terbaik sebagai solusi. **Jelaskan mengapa memilih model tersebut sebagai model terbaik**.
+Berikut adalah beberapa kelebihan dan kekurangan dalam algoritma yang digunakan.
+### Logistic Regression
+
+* **Kelebihan:**
+    * Mudah diinterpretasikan
+    * Cepat untuk dilatih
+    * Tidak rentan terhadap overfitting
+* **Kekurangan:**
+    * Tidak dapat menangkap hubungan non-linear antara fitur dan target variable
+
+### K-Nearest Neighbors (KNN)
+
+* **Kelebihan:**
+    * Sederhana untuk diterapkan
+    * Tidak memerlukan pelatihan
+* **Kekurangan:**
+    * Sensitif terhadap outlier
+    * Membutuhkan banyak memori untuk menyimpan data
+
+### Random Forest
+
+* **Kelebihan:**
+    * Akurat dan generalizable
+    * Dapat menangkap hubungan non-linear dan kompleks antara fitur dan target variable
+* **Kekurangan:**
+    * Dapat memakan waktu lama untuk dilatih
+    * Sulit untuk diinterpretasikan
+
+### Naive Bayes
+
+* **Kelebihan:**
+    * Sederhana untuk diterapkan
+    * Cepat untuk dilatih
+* **Kekurangan:**
+    * Membutuhkan asumsi bahwa fitur-fitur independen satu sama lain
+
+### AdaBoost
+
+* **Kelebihan:**
+    * Dapat meningkatkan akurasi model dasar yang lemah
+* **Kekurangan:**
+    * Dapat rentan terhadap overfitting
+    * Membutuhkan banyak memori untuk menyimpan data
+
+Adapun setelah dilakukan modeling, akhirnya diputuskan dengan menggunakan algoritma KNN karena menghasilkan tingkat yang stabil, walaupun akurasi di setiap model cukup rendah
+hanya berkisar 60%. Berikut adalah hasil visualisasinya:
+
 
 ## Evaluation
-Pada bagian ini anda perlu menyebutkan metrik evaluasi yang digunakan. Lalu anda perlu menjelaskan hasil proyek berdasarkan metrik evaluasi yang digunakan.
+Pada penulisan ini, penulis menggunakan metrik evaluasi akurasi. Dengan cara kerja sebagai berikut:
 
-Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, precision, recall, dan F1 score**. Jelaskan mengenai beberapa hal berikut:
-- Penjelasan mengenai metrik yang digunakan
-- Menjelaskan hasil proyek berdasarkan metrik evaluasi
+Akurasi = (TP + TN) / (TP + TN + FP + FN)
 
-Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, problem statement, dan solusi yang diinginkan.
+Dimana:
 
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menjelaskan formula metrik dan bagaimana metrik tersebut bekerja.
+* TP: True Positive
+* TN: True Negative
+* FP: False Positive
+* FN: False Negative
+
+Hasilnya bisa dilihat pada gambar berikut:
+
+![output.png](image%2Foutput.png)
+
+
+Dan visualisasinya:
+
+![model.png](image%2Fmodel.png)
+
+Walaupun Random Forest memiliki tingkat akurasi pada data train yang tinggi sebesar 98%, tetapi pada data test, hasil akurasinya sangat 
+rendah. Sehingga ada kemungkinan model ini overfit. Sedangkan hasil yang paling stabil dicapai oleh algoritma KNN sebesar data latih (65%)
+dan Data Test (64%), sehingga memilih model ini menjadi cukup masuk akal dibandingkan algoritma lainnya.
+
+Adapun saran perbaikan yang penulis rekomendasikan untuk perbaikan model ini adalah sebagai berikut:
+- Meningkatkan jumlah fitur yang digunakan.
+- Memperbaiki kualitas fitur yang digunakan.
+- Menggunakan model machine learning yang lebih kompleks.
+- Melakukan hyperparameter tuning untuk model yang digunakan.
+- Menambahkan beberapa teknik untuk preparation data seperti PCA, Standarisasi, dan sebagainya.
 
 **---Ini adalah bagian akhir laporan---**
 
