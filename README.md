@@ -258,4 +258,18 @@ Adapun beberapa saran perbaikan yang disarankan penulis adalah sebagai berikut:
 
 [3] Febrianti, Fitri. "Implementasi IoT(Internet of Things) Monitoring Kualitas Air dan Sistem Administrasi Pada Pengelola Air Bersih Skala Kecil." Skripsi, Institut Teknologi Nasional Malang, 2021.
 
+## Score from Dicoding
 
+**5 of 5 stars**
+
+![Score.png](image%2FScore.png)
+
+Detail penilaian submission:
+
+Submission Anda akan dinilai oleh reviewer dengan skala 1-5 berdasarkan parameter berikut. 
+
+    Bintang 1: Semua ketentuan terpenuhi, tetapi terdapat indikasi plagiat dengan menggunakan proyek orang lain dan hanya mengubah kontennya saja.
+    Bintang 2: Semua ketentuan terpenuhi, tetapi penulisan kode dan laporan berantakan.
+    Bintang 3: Semua ketentuan terpenuhi, penulisan kode, dan laporan cukup baik.
+    Bintang 4: Semua ketentuan terpenuhi, menerapkan minimal tiga (3) kriteria Rubrik Penilaian Tambahan pada laporan.
+    Bintang 5: Semua ketentuan terpenuhi, menerapkan minimal seluruh kriteria (6) Rubrik Penilaian Tambahan pada laporan.
