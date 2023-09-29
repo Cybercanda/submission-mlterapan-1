@@ -35,8 +35,7 @@ mengarahkan sumber daya dengan lebih tepat, dan akhirnya memberikan akses air be
 ### Goals
 
 Berikut adalah tujuan dari proyek ini:
-- Mengembangkan model _machine learning_ yang dapat secara akurat memprediksi kualitas air dari mata air di berbagai wilayah.
-- Menerapkan model dengan cara yang dapat diakses dan terjangkau oleh masyarakat di negara-negara berkembang.
+1. Mengembangkan model _machine learning_ yang dapat secara akurat memprediksi kualitas air dari mata air di berbagai wilayah.
 
 ### Solution statements
 - Penggunaan _Machine Learning_ dalam Solusi: Dalam rangka mencapai tujuan proyek ini, penulis akan menggunakan model machine learning untuk mempelajari hubungan antara kualitas air dan fitur-fitur seperti pH, kekerasan air, dan faktor-faktor lainnya yang memengaruhi kualitas air. Model ini akan digunakan untuk mengidentifikasi sumber air yang dapat diandalkan dan aman untuk dikonsumsi.
