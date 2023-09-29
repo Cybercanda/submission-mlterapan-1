@@ -60,7 +60,39 @@ Dataset ini berisi pengukuran dan penilaian kualitas air yang terkait dengan pot
 
 ### Univariate Analysis
 
-![univariate](https://github.com/Cybercanda/submission-mlterapan-1/assets/113665438/6543475a-3d60-4ba9-bc82-0275a004bd38)
+![pink](https://github.com/Cybercanda/submission-mlterapan-1/assets/113665438/b0e587b3-bf32-4d0f-8be0-d19d67246e72)
+
+Gambar diatas, menunjukan jumlah data pada target, dimana datanya tidak berimbang, dengan persebaran data bernilai 0 (Air tidak layak minum) sebesar 1600 an dan 1 (Layak Minum) sebesar 1000 an.
+
+---
+
+Lalu, bisa ditelusuri masing-masing fitur
+
+![1](https://github.com/Cybercanda/submission-mlterapan-1/assets/113665438/bd08928c-5989-4a3b-9d13-e67586040eb9)
+
+Bisa dilihat bahwa nilai ph untuk air layak minum di dominasi dengan ph 7
+
+![2](https://github.com/Cybercanda/submission-mlterapan-1/assets/113665438/9e74c0e0-0164-4df0-9e1a-a7bc6df09090)
+
+Lalu dengan berfokus pada data air layak minum terhadap kesadahan air berada di rentang 180 - 220. Walaupun data air tidak layak minum juga tinggi di rentang yang sama. Hal ini bisa dikomunikasikan lebih lanjut ke _Subject Matter Expert_ (SME)
+
+![3](https://github.com/Cybercanda/submission-mlterapan-1/assets/113665438/1aea3e08-640b-4aa6-bca9-4dcc1cb86725)
+
+Pada fitur ketiga, target disandingkan dengan solids, rentang persebaran data layak minum berada diantara 1500 an sampai 2000 an.
+
+![4](https://github.com/Cybercanda/submission-mlterapan-1/assets/113665438/42c9d068-ee6d-4df8-ba22-fe19f983acb7)
+
+Selanjutnya, gambar diatas menunjukan distribusi chloramines dengan persebaran yang bisa anda lihat sebagai berikut.
+
+![5](https://github.com/Cybercanda/submission-mlterapan-1/assets/113665438/057eda31-4f5d-4fcf-b7ba-635a3ef597a9)
+
+![6](https://github.com/Cybercanda/submission-mlterapan-1/assets/113665438/c04f15df-afc7-46bf-b24a-7af65c1f7302)
+
+![7](https://github.com/Cybercanda/submission-mlterapan-1/assets/113665438/35c0c09a-bca2-4b52-9220-751d6f6dd23c)
+
+![8](https://github.com/Cybercanda/submission-mlterapan-1/assets/113665438/283cb7ee-e4e8-4567-b497-6a2ccf2e9a0a)
+
+![9](https://github.com/Cybercanda/submission-mlterapan-1/assets/113665438/670230b5-6651-4392-89e5-07cc7554a802)
 
 
 Berdasarkan grafik tersebut, dapat ditarik beberapa kesimpulan sebagai berikut:
@@ -205,8 +237,15 @@ model yang dihasilkan terlalu ideal sehingga ada indikasi bahwa model tersebut m
 sebesar 68%. Penulis menyimpulkan bahwa, _KNN_ adalah model yang tepat, karena menghasilkan akurasi kedua paling tinggi setelah _RF_ sebesar 65%
 dan akurasi pada data testing 64%.
 
-Saran perbaikan yang disarankan untuk meningkatkan kinerja model adalah sebagai berikut:
+### Kesimpulan
+
+Dalam proyek ini, penulis menjelajahi penggunaan algoritma _machine learning_ untuk memprediksi kualitas air yang dapat diminum berdasarkan data yang tersedia. Penulis juga mengidentifikasi tantangan akses air bersih di Indonesia dan potensi _machine learning_ untuk mengotomatisasi identifikasi mata air dengan kualitas air yang dapat diminum. 
+
+Dan juga berhasil mengimplementasikan teknik _machine learning_ dan memilih yang terbaik untuk mengidentifikasi air layak minum, yakni dengan menggunakan algoritma _random forest_. Hasil ini sesuai dengan tujuan yang telah ditetapkan sebelumnya. 
+
+Adapun beberapa saran perbaikan yang disarankan penulis adalah sebagai berikut:
 - Pertimbangkan penambahan fitur yang lebih relevan.
+- Menyeimbangkan data target.
 - Lakukan pemrosesan data lebih lanjut seperti normalisasi atau standarisasi data.
 - Eksplorasi model machine learning yang lebih kompleks atau perangkat ensambel yang dapat meningkatkan kinerja.
 - Lakukan hyperparameter tuning untuk mengoptimalkan parameter model yang digunakan.
