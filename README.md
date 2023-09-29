@@ -25,9 +25,8 @@ Melalui proyek ini, penulis berharap dapat memberikan kontribusi dalam meningkat
 Tujuan dari bagian ini adalah untuk memperjelas masalah bisnis dan mendefinisikan tujuan proyek.
 
 ### Problem Statements
-#### Latar Belakang Tantangan Akses Air Bersih di Indonesia
-Indonesia adalah salah satu negara yang menghadapi tantangan serius dalam penyediaan akses terhadap air minum bersih. Masalah ini sangat penting karena air minum yang bersih adalah hak dasar setiap individu, dan krisis air di Indonesia memengaruhi jutaan orang. 
-Berbagai faktor seperti urbanisasi cepat, kurangnya infrastruktur sanitasi, polusi air, serta distribusi yang tidak merata, semuanya berkontribusi terhadap ketidaktersediaan air minum yang aman dan berkualitas di banyak wilayah Indonesia.
+
+1. Apakah pemanfaatan Machine Learning dapat digunakan untuk meningkatkan efisiensi dalam mendeteksi sumber air yang aman untuk diminum?
 
 #### Potensi _Machine Learning_ dalam Mengatasi Masalah
 _Machine Learning_ memiliki potensi besar untuk membantu mengatasi tantangan ini dengan mengotomatiskan proses identifikasi mata air dengan kualitas air yang dapat diminum. Dengan memanfaatkan teknologi ini, kita dapat meningkatkan efisiensi dalam mendeteksi sumber air yang aman, 
